@@ -1,0 +1,141 @@
+body{
+    background-color: white;
+}
+.main_section{
+    margin: 4%;
+}
+.signup_form{
+    display: flex;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    border: transparent;
+    border-radius: 10px;
+    /* margin: 200px; */
+}
+.signup_content{
+    background-color: white;
+    padding: 30px;
+}
+.signup_content > h4{
+    text-align: center;
+    font-weight: 700;
+}
+.name_section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user_name{
+    width: 65%;
+    padding: 5px;
+    height: 35px;
+    border: 1px solid rgb(135 135 135 / 90%);
+}
+.email_section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.user_email{
+    width: 65%;
+    padding: 5px;
+    height: 35px;
+    border: 1px solid rgb(135 135 135 / 90%);
+}
+.pass_section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.user_pass{
+    width: 65%;
+    padding: 5px;
+    height: 35px;
+    border: 1px solid rgb(135 135 135 / 90%);
+}
+.repeat_pass{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.repeat_user_pass{
+    width: 65%;
+    padding: 5px;
+    height: 35px;
+    border: 1px solid rgb(135 135 135 / 90%);
+}
+.terms_services{
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    margin-top: 15px;
+}
+.terms_services > .note_for_terms{
+    font-weight: bold;
+}
+.note_for_terms > a{
+    text-decoration: none;
+}
+.regi_button{
+    margin-left: 100px;
+}
+.register_btn{
+    text-align: center;
+    color: white;
+    font-size: small;
+    background-color: blue;
+    border: transparent;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.image_section{
+    background-color: white;
+    padding: 30px;
+}
+.img_signup > img{
+    /* padding: 10px; */
+    width: 100%;
+    height: 100%;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: none;
+    line-height: inherit;
+}
+
+
+@media (max-width: 768px) {
+    .signup_content{
+        border-radius: 10px !important;
+    }
+    .image_section{
+        border-radius: 10px !important;
+    }
+    .regi_button{
+        margin-left: 80px;
+    }
+    button, input, optgroup, select, textarea {
+        margin: 0;
+        font-family: none;
+        line-height: inherit;
+    }
+}
+
+@media (max-width: 375px) {
+    .regi_button{
+        margin-left: 60px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .regi_button{
+        margin-left: 30px;
+    }
+}
